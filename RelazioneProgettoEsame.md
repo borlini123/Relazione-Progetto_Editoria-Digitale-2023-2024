@@ -30,9 +30,32 @@ Il prodotto dovrà essere un breve manuale sulle tecniche di grounding, dovrà s
 ### Destinatari
 [//]: # (Descrivere i destinatari del prodotto editoriale descrivendo le personas alle quali si rivolge il prodotto. Descrivete alcuni scenari d'uso nei quali inserire le personas scelte come destinatari.)
 Il progetto è pensato principalmente per persone con problemi a rimanere radicati nel presente, che sia per fattori di stress interni che esterni.
-_Personas_
+#### Personas
+![Persona 1: Martha Jones](Ideazione/Persona_Martha_Jones.png)
+![Persona 2: Matteo Bianchi](Ideazione/Persona_Matteo_Bianchi.png)
 
-_Scenari d'uso_
+#### Scenari d'uso
+_Scenario 1:_ Lettura lineare del libro
+1. L'utente apre l'eBook
+2. Legge il libro in modo lineare
+3a. L'utente può scegliere se provare gli esercizi durante la lettura
+3b. L'utente può leggerli tutti e poi scegliere che esercizi provare
+
+_Scenario 2:_ Scelta di un esercizio
+1. L'utente apre l'eBook
+2. Seleziona l'esercizio che vuole effettuare dall'indice
+3. Legge la spiegazione l'esercizio
+4. L'utente esegue l'esercizio
+5a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook
+5b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
+
+_Scenario 3:_ Utilizza dell'audioguida per l'esercizio
+1. L'utente apre l'eBook
+2. Seleziona l'esercizio che vuole effettuare dall'indice
+3. Attiva l'audioguida che spiegherà l'esercizio
+4. L'utente esegue l'esercizio
+5a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook
+5b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
 
 
 ### Requisiti di accettazione
