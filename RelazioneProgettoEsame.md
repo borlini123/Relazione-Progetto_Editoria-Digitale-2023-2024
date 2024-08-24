@@ -10,8 +10,9 @@ kind: Document
 bibliography: bibliografia.bib
 csl: IEEE.csl![Logo UNIMI](./logo/minerva.jpg)
 ---
-
-# <img src="./logo/minerva.jpg" alt="Logo UNIMI" width="200"/>
+<p align="center">
+<img src="./logo/minerva.jpg" alt="Logo UNIMI" width="200"/>
+</p>
 
 # Grounding cheat sheet
 Esercizi per tornare nel presente
@@ -57,16 +58,32 @@ _Scenario 3:_ Utilizza dell'audioguida per l'esercizio
 5a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook
 5b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
 
-
 ### Requisiti di accettazione
-[//]: # (Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. Quali modelli di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? Quali aspetti di innovazione possiamo proporre? Nella qualità dei contenuti o nel processo di fruizione?)
-
+[//]: # (Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. 
+Quali modelli di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? 
+Quali aspetti di innovazione possiamo proporre? 
+Nella qualità dei contenuti o nel processo di fruizione?)
+Come riferimento prenderemo lo Standard ePub3, questo perchè non solo ci poter avere un tipo di lettura non lineare, ma potremo anche inserire elementi multimediali che possano aiutare l'utente ad una migliore fruizione con audio e/o video. 
+A volte infatti avere una guida che spieghi vocalmente un esercizio potrebbe essere utile all'utente quando lo esegue le prime volte.
+Fornendo audio/video e testo in un unico prodotto sarà più facile sfruttare tutte le risorse disponibili senza dover aprire e chiudere diverse applicazioni. 
 
 ### Canali di distribuzione
 [//]: # (Presentare i canali di distribuzione che si intendono raggiugnere e i formati dati richiesti da ogni canale. 
 Esempi di canali sono: i Web, ii Social, iii Market place, iv Intranet. 
 Esempi di formati. i Word, ii ePub, iii CBZ, iv PDF, v WebBook.
-Proporre alcuni accenni relativi all'identità visuale e alle regole tipografiche o di stile che si intendono seguire. Nel settore esisto classi di documento standard? Dati gli obiettivi è importante trasmettere un senso di adesione a modelli già conosciuti o un senso di innovazione? Lo stile sarà orientato verso un'espressione formale o informale?)
+Proporre alcuni accenni relativi all'identità visuale e alle regole tipografiche o di stile che si intendono seguire. 
+Nel settore esistono classi di documento standard? 
+Dati gli obiettivi è importante trasmettere un senso di adesione a modelli già conosciuti o un senso di innovazione? 
+Lo stile sarà orientato verso un'espressione formale o informale?)
+La pubblicizzazione più semplice ed efficace per il prodotto sarebbe quella tramite social, grazie ai quali si reindirizzerà ad un sito esterno per un eventuale vendita.
+Questo perché tramite social network sarà possibile entrare in contatto anche con persone che magari solitamente non leggono eBook ma che possono essere interessati da qualcosa di più semplice interesse, oltre che a poter trovare più facilmente community appassionate di self-help e salute mentale.
+Con lo standard scelto, sarà necessario usare il fromato .epub in modo da che sia accessibile da più tipi di dispositivi.
+Il progetto si cercherà di essere il più familiare e comprensibile all'utente imitando un normale libro di esercizi, questo per cercare di evitare frustrazioni durante l'utilizzo e uno stile più informale in modo da non spaventare il lettore con termini troppo complessi.
+La grafica del progetto avrà:
+- una palette nei toni del blu e forme rotonde in modo da avere un effetto rilassante,
+- un font accessibile per chi ha la dislessia
+- un'interlinea tale da non avere il testo troppo ravvicinato
+- chiara divisione tra i vari esercizi in modo da non causare confusione
 
 ## Processo di Produzione
 
