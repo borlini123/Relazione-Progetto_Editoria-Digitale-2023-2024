@@ -89,6 +89,12 @@ La grafica del progetto avrà:
 
 ### Acquisizione dei contenuti
 [//]: # (Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: i disponibili come fonti libere, ii generabili automaticamente, iii richiedono un lavoro di redazione manuale.)
+Le fonti utilizzate per i contenuti informatici di questo prodotto, verranno da vari articoli e pubblicazioni sostenute da medici e/o pubblicate da fonti attendibili in modo da evitare informazioni errate.
+Anche se possono essere coperte da copyright, essendo questo un progetto scolastico e per usi educativi no-profit, l'utilizzo di queste fonti ricade nel Fair Use; in caso non lo fosse sarebbe necessario citare e pagare i diritti sulle fonti utilizzate. <br/>
+In caso sia necessario tradurre dei contenuti dall'inglese all'italiano sfutterò il sito DeepL, per poi revisionare e correggere manualmente il risultato.
+Per i contenuti grafici invece verranno sfruttati fonti libere da vari siti web.
+Infine i contenuti audio verranno generati automaticamente.
+
 
 ### Gestione documentale
 [//]: # (Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, 
