@@ -106,23 +106,45 @@ v l'applicazione dello stile grafico,
 vi la generazione dei metadati, 
 vii la distribuzione dei contenuti. 
 Nella descrizione del flusso considerare le fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.)
-
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
-
+#### Raccolta e creazione dei contenuti
 ```mermaid
 flowchart LR
-  A[Hard edge] -->|Link text| B(Round edge)
-  B --> C{Decision}
-  C -->|One| D[Result one]
-  C -->|Two| E[Result two]
+    n{{"Decisione<br>&nbsp;argomenti"}} --> A1("Raccolta <br>fonti")
+    A1 --> A2(["Controllo<br> fonti"])
+    C1("Bozza <br> struttura eBook") --> D1("Bozza <br> del testo")
+    D1 --> D2(["Creazione <br> testo completo"]) & E1("Raccolta <br> contenuti grafici")
+    A2 --> B1(["Creazione <br> Bibliografia"]) & C1
+    E1 --> F1(["Creazione copertina"]) & F2(["Creazione palette <br>accessibile"]) & F3(["Creazione <br>elementi interattivi"])
 ```
+#### Strutturazione dei contenuti 
+```mermaid
+flowchart LR
+    n1{{"Bozza della struttura"}} --> A("Divisione capitoli")
+    n2{{"Testo completo"}} --> A & C(["Creazione<br>elenco <br>degli esercizi"])
+    n2 -- Controlli --> n3(("Controllo <br> ortografico")) & n4(("Controllo<br>punteggiatura"))
+    A --> B("Divisione in eventuali <br> sottocapitoli")
+    B --> E(["Creazione indice"]) --> G("Inserimento link interni")
+    C --> D("Inserimento elementi interattivi") & E
+    D --> F(("Revisione<br> corretto <br>funzionamento"))
+``` 
+
+#### Applicazione dello stile grafico 
+```mermaid
+flowchart LR
+    A(["Creazione <br> fogli di stile <br> basilari"]) --> B("Inserimento <br> font scelto")
+    B --> C("Inserimento<br>immagini")
+    C --> D("Sistemare <br> impaginazione  <br>paragrafi") & E(["Creazione testi<br>&nbsp;alternativi"])
+    D --> F("Modifiche <br>estetiche")
+    F --> G(("Verifica dei <br>requisiti di <br>accessibilità")) & H(("Convalida <br>fogli di stile <br>con W3C"))
+
+``` 
+#### Creazione formato di distribuzione 
+```mermaid
+flowchart LR
+    C("Creazione <br>file .NCX") --> B("Definizione dei <br>metadati descrittivi")
+    B --> A(("Controllo <br>epub3<br>&nbsp;ben formato"))
+    A --> Z("Compilazione del documento")
+``` 
 
 ### Tecnologie adottate
 [//]: # (Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.)
