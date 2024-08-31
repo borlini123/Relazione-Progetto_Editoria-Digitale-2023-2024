@@ -14,8 +14,8 @@ csl: IEEE.csl![Logo UNIMI](./logo/minerva.jpg)
 <img src="./logo/minerva.jpg" alt="Logo UNIMI" width="200"/>
 </p>
 
-# Grounding cheat sheet
-Esercizi per tornare nel presente
+# Torna con i piedi per terra
+Tecniche di grounding nel quotidiano
 
 
 ## Introduzione
@@ -40,31 +40,35 @@ Il progetto è pensato principalmente per persone con problemi a rimanere radica
 _Scenario 1:_ Lettura lineare del libro
 1. L'utente apre l'eBook
 2. Legge il libro in modo lineare
-3a. L'utente può scegliere se provare gli esercizi durante la lettura
-3b. L'utente può leggerli tutti e poi scegliere che esercizi provare
+3. <br>
+  a. L'utente può scegliere se provare gli esercizi durante la lettura <br>
+  b. L'utente può leggerli tutti e poi scegliere che esercizi provare
 
 _Scenario 2:_ Scelta di un esercizio
 1. L'utente apre l'eBook
 2. Seleziona l'esercizio che vuole effettuare dall'indice
 3. Legge la spiegazione l'esercizio
 4. L'utente esegue l'esercizio
-5a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook
-5b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
+5. <br>
+  a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook <br>
+  b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio <br>
 
 _Scenario 3:_ Utilizza dell'audioguida per l'esercizio
 1. L'utente apre l'eBook
 2. Seleziona l'esercizio che vuole effettuare dall'indice
 3. Attiva l'audioguida che spiegherà l'esercizio
 4. L'utente esegue l'esercizio
-5a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook
-5b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
+5. <br>
+  a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook <br>
+  b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
 
 ### Requisiti di accettazione
 [//]: # (Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. 
 Quali modelli di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? 
 Quali aspetti di innovazione possiamo proporre? 
 Nella qualità dei contenuti o nel processo di fruizione?)
-Come riferimento prenderemo lo Standard ePub3, questo perchè non solo ci poter avere un tipo di lettura non lineare, ma potremo anche inserire elementi multimediali che possano aiutare l'utente ad una migliore fruizione con audio e/o video; avere una guida che spieghi vocalmente un esercizio potrebbe essere utile all'utente quando lo esegue le prime volte o nel caso prediliga l'apprendimento uditivo.<br/>
+Per gli standard di accettazione controlleremo quelli di EPUB Accessibility 1.1 di W3C per le pubblicazioni ePub.
+Sfruttando ePub3 potremo anche avere, non solo un tipo di lettura non lineare, ma potremo anche inserire elementi interattivi e multimediali che possano aiutare l'utente ad una migliore fruizione con audio e/o video; avere una guida che spieghi vocalmente un esercizio potrebbe essere utile all'utente quando lo esegue le prime volte o nel caso prediliga l'apprendimento uditivo. <br/>
 Fornendo audio/video e testo in un unico prodotto sarà più facile sfruttare tutte le risorse disponibili senza dover aprire e chiudere diverse applicazioni. 
 
 ### Canali di distribuzione
@@ -80,7 +84,7 @@ Questo perché tramite social network sarà possibile entrare in contatto anche 
 Con lo standard scelto, sarà necessario usare il fromato .epub in modo da che sia accessibile da più tipi di dispositivi.
 Il progetto si cercherà di essere il più familiare e comprensibile all'utente imitando un normale libro di esercizi, questo per cercare di evitare frustrazioni durante l'utilizzo e uno stile più informale in modo da non spaventare il lettore con termini troppo complessi. <br/>
 La grafica del progetto avrà:
-- una palette nei toni del blu e forme rotonde in modo da avere un effetto rilassante,
+- una palette con dei toni naturali e forme rotonde in modo da avere un effetto rilassante,
 - un font accessibile per chi ha la dislessia
 - un'interlinea tale da non avere il testo troppo ravvicinato
 - chiara divisione tra i vari esercizi in modo da non causare confusione
@@ -109,67 +113,67 @@ Nella descrizione del flusso considerare le fasi di revisione, controllo e appro
 #### Raccolta e creazione dei contenuti
 ```mermaid
 flowchart LR
-    n{{"Decisione<br>&nbsp;argomenti"}} --> A1("Raccolta <br>fonti")
-    A1 --> A2(["Controllo<br> fonti"])
-    C1("Bozza <br> struttura eBook") --> D1("Bozza <br> del testo")
-    D1 --> D2(["Creazione <br> testo completo"]) & E1("Raccolta <br> contenuti grafici")
-    A2 --> B1(["Creazione <br> Bibliografia"]) & C1
-    E1 --> F1(["Creazione copertina"]) & F2(["Creazione palette <br>accessibile"]) & F3(["Creazione <br>elementi interattivi"])
+  n{{"Decisione<br>&nbsp;argomenti"}} --> A1("Raccolta <br>fonti")
+  A1 --> A2(["Controllo<br> fonti"])
+  C1("Bozza <br> struttura eBook") --> D1("Bozza <br> del testo")
+  D1 --> D2(["Creazione <br> testo completo"]) & E1("Raccolta <br> contenuti grafici")
+  A2 --> B1(["Creazione <br> Bibliografia"]) & C1
+  E1 --> F1(["Creazione copertina"]) & F2(["Creazione palette <br>accessibile"]) & F3(["Creazione <br>elementi interattivi"])
 ```
 #### Strutturazione dei contenuti 
 ```mermaid
 flowchart LR
-    n1{{"Bozza della struttura"}} --> A("Divisione capitoli")
-    n2{{"Testo completo"}} --> A & C(["Creazione<br>elenco <br>degli esercizi"])
-    n2 -- Controlli --> n3(("Controllo <br> ortografico")) & n4(("Controllo<br>punteggiatura"))
-    A --> B("Divisione in eventuali <br> sottocapitoli")
-    B --> E(["Creazione indice"]) --> G("Inserimento link interni")
-    C --> D("Inserimento elementi interattivi") & E
-    D --> F(("Revisione<br> corretto <br>funzionamento"))
+  n1{{"Bozza della struttura"}} --> A("Divisione capitoli")
+  n2{{"Testo completo"}} --> A & C(["Creazione<br>elenco <br>degli esercizi"])
+  n2 -- Controlli --> n3(("Controllo <br> ortografico")) & n4(("Controllo<br>punteggiatura"))
+  A --> B("Divisione in eventuali <br> sottocapitoli")
+  B --> E(["Creazione indice"]) --> G("Inserimento link interni")
+  C --> D("Inserimento elementi interattivi") & E
+  D --> F(("Revisione<br> corretto <br>funzionamento"))
 ``` 
 
 #### Applicazione dello stile grafico 
 ```mermaid
 flowchart LR
-    A(["Creazione <br> fogli di stile <br> basilari"]) --> B("Inserimento <br> font scelto")
-    B --> C("Inserimento<br>immagini")
-    C --> D("Sistemare <br> impaginazione  <br>paragrafi") & E(["Creazione testi<br>&nbsp;alternativi"])
-    D --> F("Modifiche <br>estetiche")
-    F --> G(("Verifica dei <br>requisiti di <br>accessibilità")) & H(("Convalida <br>fogli di stile <br>con W3C"))
+  A(["Creazione <br> fogli di stile <br> basilari"]) --> B("Inserimento <br> font scelto")
+  B --> C("Inserimento<br>immagini")
+  C --> D("Sistemare <br> impaginazione <br>paragrafi") & E(["Creazione testi<br>&nbsp;alternativi"])
+  D --> F("Modifiche <br>estetiche")
+  F --> G(("Verifica dei <br>requisiti di <br>accessibilità")) & H(("Convalida <br>fogli di stile <br>con W3C"))
 
 ``` 
 #### Creazione formato di distribuzione 
 ```mermaid
 flowchart LR
-    C("Creazione <br>file .NCX") --> B("Definizione dei <br>metadati descrittivi")
-    B --> A(("Controllo <br>epub3<br>&nbsp;ben formato"))
-    A --> Z("Compilazione del documento")
+  C("Creazione <br>file .NCX") --> B("Definizione dei <br>metadati descrittivi")
+  B --> A(("Controllo <br>epub3<br>&nbsp;ben formato"))
+  A --> Z("Compilazione del documento")
 ``` 
 
 ### Tecnologie adottate
 [//]: # (Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.)
 #### All'interno del progetto
 
-| Tecnologia                 	| Funzionalità all'interno del progetto                                                                                                                                                                                                         	|
+| Tecnologia         	| Funzionalità all'interno del progetto                                                                                                     	|
 |----------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Sigil                      	| Creazione e gestione dei file necessari per un eBook epub3. <br>Rende disponibili delle automazioni per la gestione di Metadati, link di ipertesto, convalidazione fogli di stile, riformattazione HTML e controllo di epub ben formato.  	|
-| XHTML                      	| Necessario per la struttura base.                                                                                                                                                                                                             	|
-| JavaScript                 	| Utilizzato per gli elementi interattivi all'interno del progetto                                                                                                                                                                              	|
-| CSS                        	| Utilizzato per la formattazione e le parti garfiche                                                                                                                                                                                           	|
-| Venngage                   	| Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.                                                                                                                     	|
-| Canva                      	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                                                                                                                                   	|
-| ttsmaker                   	| Utilizzato per la trasformazione da testo ad audio.                                                                                                                                                                                           	|
-| ACE <br>(plugin per Sigil) 	| Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG eEPUB.                                                                                                                  	|
+| Sigil           	| Creazione e gestione dei file necessari per un eBook epub3. <br>Rende disponibili delle automazioni per la gestione di Metadati, link di ipertesto, convalidazione fogli di stile, riformattazione HTML e controllo di epub ben formato. 	|
+| XHTML           	| Necessario per la struttura base.                                                                                                       	|
+| JavaScript         	| Utilizzato per gli elementi interattivi all'interno del progetto                                                                                       	|
+| CSS            	| Utilizzato per la formattazione e le parti garfiche                                                                                              	|
+| Venngage          	| Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.                                                           	|
+| Canva           	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                                                  	|
+| ttsmaker          	| Utilizzato per la trasformazione da testo ad audio.                                                                                              	|
+| ACE <br>(plugin per Sigil) 	| Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG ed eEPUB.                                                         	|
 
 #### Per la documentazione
 
-| Tecnologia                	| Funzionalità all'interno della documentazione                                       	|
+| Tecnologia        	| Funzionalità all'interno della documentazione                    	|
 |---------------------------	|-----------------------------------------------------------------------------	|
-| GitHub                    	| Gestione del flusso di produzione                                           	|
-| Canva                     	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	|
-| Mermaid                   	| Creazione di diagrammi di flusso, facilitata anche dall'editor onlie        	|
-| Markdown Table Generator  	| Creazione di tabelle facilitata                                             	|
-| MyBib                     	| Generazione di bibliografia e sitografia facilitata                         	|
+| GitHub          	| Gestione del flusso di produzione                      	|
+| Canva           	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	|
+| Mermaid          	| Creazione di diagrammi di flusso, facilitata anche dall'editor onlie    	|
+| Markdown Table Generator 	| Creazione di tabelle facilitata                       	|
+| MyBib           	| Generazione di bibliografia e sitografia facilitata             	|
 
 ### Esecuzione del flusso
 [//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.)
