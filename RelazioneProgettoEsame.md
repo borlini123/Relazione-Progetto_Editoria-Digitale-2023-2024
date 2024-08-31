@@ -89,6 +89,12 @@ La grafica del progetto avrà:
 
 ### Acquisizione dei contenuti
 [//]: # (Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: i disponibili come fonti libere, ii generabili automaticamente, iii richiedono un lavoro di redazione manuale.)
+Le fonti utilizzate per i contenuti informatici di questo prodotto, verranno da vari articoli e pubblicazioni sostenute da medici e/o pubblicate da fonti attendibili in modo da evitare informazioni errate.
+Anche se possono essere coperte da copyright, essendo questo un progetto scolastico e per usi educativi no-profit, l'utilizzo di queste fonti ricade nel Fair Use; in caso non lo fosse sarebbe necessario citare e pagare i diritti sulle fonti utilizzate. <br/>
+In caso sia necessario tradurre dei contenuti dall'inglese all'italiano sfutterò il sito DeepL, per poi revisionare e correggere manualmente il risultato.
+Per i contenuti grafici invece verranno sfruttati fonti libere da vari siti web.
+Infine i contenuti audio verranno generati automaticamente.
+
 
 ### Gestione documentale
 [//]: # (Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, 
@@ -100,34 +106,74 @@ v l'applicazione dello stile grafico,
 vi la generazione dei metadati, 
 vii la distribuzione dei contenuti. 
 Nella descrizione del flusso considerare le fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.)
-
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
-
+#### Raccolta e creazione dei contenuti
 ```mermaid
 flowchart LR
-  A[Hard edge] -->|Link text| B(Round edge)
-  B --> C{Decision}
-  C -->|One| D[Result one]
-  C -->|Two| E[Result two]
+    n{{"Decisione<br>&nbsp;argomenti"}} --> A1("Raccolta <br>fonti")
+    A1 --> A2(["Controllo<br> fonti"])
+    C1("Bozza <br> struttura eBook") --> D1("Bozza <br> del testo")
+    D1 --> D2(["Creazione <br> testo completo"]) & E1("Raccolta <br> contenuti grafici")
+    A2 --> B1(["Creazione <br> Bibliografia"]) & C1
+    E1 --> F1(["Creazione copertina"]) & F2(["Creazione palette <br>accessibile"]) & F3(["Creazione <br>elementi interattivi"])
 ```
+#### Strutturazione dei contenuti 
+```mermaid
+flowchart LR
+    n1{{"Bozza della struttura"}} --> A("Divisione capitoli")
+    n2{{"Testo completo"}} --> A & C(["Creazione<br>elenco <br>degli esercizi"])
+    n2 -- Controlli --> n3(("Controllo <br> ortografico")) & n4(("Controllo<br>punteggiatura"))
+    A --> B("Divisione in eventuali <br> sottocapitoli")
+    B --> E(["Creazione indice"]) --> G("Inserimento link interni")
+    C --> D("Inserimento elementi interattivi") & E
+    D --> F(("Revisione<br> corretto <br>funzionamento"))
+``` 
+
+#### Applicazione dello stile grafico 
+```mermaid
+flowchart LR
+    A(["Creazione <br> fogli di stile <br> basilari"]) --> B("Inserimento <br> font scelto")
+    B --> C("Inserimento<br>immagini")
+    C --> D("Sistemare <br> impaginazione  <br>paragrafi") & E(["Creazione testi<br>&nbsp;alternativi"])
+    D --> F("Modifiche <br>estetiche")
+    F --> G(("Verifica dei <br>requisiti di <br>accessibilità")) & H(("Convalida <br>fogli di stile <br>con W3C"))
+
+``` 
+#### Creazione formato di distribuzione 
+```mermaid
+flowchart LR
+    C("Creazione <br>file .NCX") --> B("Definizione dei <br>metadati descrittivi")
+    B --> A(("Controllo <br>epub3<br>&nbsp;ben formato"))
+    A --> Z("Compilazione del documento")
+``` 
 
 ### Tecnologie adottate
 [//]: # (Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.)
-|     | Scenario 1           | Scenario 2          |
-| -------- | ------------------------------- | ----------------------------- |
-| Markdown | `'Isn't this fun?'`       | 'Isn't this fun?'       |
-| XSLT   | `"Isn't this fun?"`       | "Isn't this fun?"       |
-| ePud   | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
+#### All'interno del progetto
+
+| Tecnologia                 	| Funzionalità all'interno del progetto                                                                                                                                                                                                         	|
+|----------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Sigil                      	| Creazione e gestione dei file necessari per un eBook epub3. <br>Rende disponibili delle automazioni per la gestione di Metadati, link di ipertesto, convalidazione fogli di stile, riformattazione HTML e controllo di epub ben formato.  	|
+| XHTML                      	| Necessario per la struttura base.                                                                                                                                                                                                             	|
+| JavaScript                 	| Utilizzato per gli elementi interattivi all'interno del progetto                                                                                                                                                                              	|
+| CSS                        	| Utilizzato per la formattazione e le parti garfiche                                                                                                                                                                                           	|
+| Venngage                   	| Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.                                                                                                                     	|
+| Canva                      	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                                                                                                                                   	|
+| ttsmaker                   	| Utilizzato per la trasformazione da testo ad audio.                                                                                                                                                                                           	|
+| ACE <br>(plugin per Sigil) 	| Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG eEPUB.                                                                                                                  	|
+
+#### Per la documentazione
+
+| Tecnologia                	| Funzionalità all'interno della documentazione                                       	|
+|---------------------------	|-----------------------------------------------------------------------------	|
+| GitHub                    	| Gestione del flusso di produzione                                           	|
+| Canva                     	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	|
+| Mermaid                   	| Creazione di diagrammi di flusso, facilitata anche dall'editor onlie        	|
+| Markdown Table Generator  	| Creazione di tabelle facilitata                                             	|
+| MyBib                     	| Generazione di bibliografia e sitografia facilitata                         	|
 
 ### Esecuzione del flusso
-[//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto. )
+[//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.)
+(https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024)[Nel repository linkato] si possono trovare tutto ciò che è relativo al progetto e alla sua realizzazione.
 
 ## Valutazione dei risultati raggiunti
 
