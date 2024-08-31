@@ -41,8 +41,8 @@ _Scenario 1:_ Lettura lineare del libro
 1. L'utente apre l'eBook
 2. Legge il libro in modo lineare
 3. <br>
-  a. L'utente può scegliere se provare gli esercizi durante la lettura <br>
-  b. L'utente può leggerli tutti e poi scegliere che esercizi provare
+    a. L'utente può scegliere se provare gli esercizi durante la lettura <br>
+    b. L'utente può leggerli tutti e poi scegliere che esercizi provare
 
 _Scenario 2:_ Scelta di un esercizio
 1. L'utente apre l'eBook
@@ -50,8 +50,8 @@ _Scenario 2:_ Scelta di un esercizio
 3. Legge la spiegazione l'esercizio
 4. L'utente esegue l'esercizio
 5. <br>
-  a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook <br>
-  b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio <br>
+    a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook <br>
+    b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio <br>
 
 _Scenario 3:_ Utilizza dell'audioguida per l'esercizio
 1. L'utente apre l'eBook
@@ -59,8 +59,8 @@ _Scenario 3:_ Utilizza dell'audioguida per l'esercizio
 3. Attiva l'audioguida che spiegherà l'esercizio
 4. L'utente esegue l'esercizio
 5. <br>
-  a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook <br>
-  b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
+    a. Se l'utente si ritiene soddisfatto potrà chiudere l'eBook <br>
+    b. l'utente può tornare al punto 2. e scegliere un nuovo esercizio
 
 ### Requisiti di accettazione
 [//]: # (Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. 
@@ -85,9 +85,9 @@ Con lo standard scelto, sarà necessario usare il fromato .epub in modo da che s
 Il progetto si cercherà di essere il più familiare e comprensibile all'utente imitando un normale libro di esercizi, questo per cercare di evitare frustrazioni durante l'utilizzo e uno stile più informale in modo da non spaventare il lettore con termini troppo complessi. <br/>
 La grafica del progetto avrà:
 - una palette con dei toni naturali e forme rotonde in modo da avere un effetto rilassante,
-- un font accessibile per chi ha la dislessia
-- un'interlinea tale da non avere il testo troppo ravvicinato
-- chiara divisione tra i vari esercizi in modo da non causare confusione
+- un font accessibile per chi ha la dislessia,
+- un'interlinea tale da non avere il testo troppo ravvicinato,
+- chiara divisione tra i vari esercizi in modo da non causare confusione.
 
 ## Processo di Produzione
 
