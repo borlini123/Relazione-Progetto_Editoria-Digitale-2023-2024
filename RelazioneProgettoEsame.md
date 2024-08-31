@@ -163,7 +163,7 @@ flowchart LR
 
 #### Per la documentazione
 
-| Tecnologia                	| Funzionalità all'interno del progetto                                       	|
+| Tecnologia                	| Funzionalità all'interno della documentazione                                       	|
 |---------------------------	|-----------------------------------------------------------------------------	|
 | GitHub                    	| Gestione del flusso di produzione                                           	|
 | Canva                     	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	|
@@ -173,6 +173,7 @@ flowchart LR
 
 ### Esecuzione del flusso
 [//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.)
+(https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024)[Nel repository linkato] si possono trovare tutto ciò che è relativo al progetto e alla sua realizzazione.
 
 ## Valutazione dei risultati raggiunti
 
