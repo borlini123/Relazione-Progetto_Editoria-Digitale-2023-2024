@@ -183,6 +183,7 @@ flowchart LR
 
 ### Valutazione del flusso di produzione
 [//]: # ( Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di)
+
 [//]: # ( -Riduzione dei tempi di gestione documentale)
 
 [//]: # ( -Riduzione degli errori)
@@ -200,6 +201,11 @@ flowchart LR
 
 ### Limiti emersi
 [//]: # (È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti)
+Il limite principale emerso è stato cercare di utilizzare tecnologie disponibili gratuitamente.
+Infatti molte risorse che avrebbero potuto permettere di generare tramite AI parte della documentazione o contenuti multimediali erano dietro paywall e le alternative erano di qualità molto bassa o inesistenti, facendo diventare il lavoro manuale l'unica possibile scelta.
+Due esempi che incapsulano bene questo problema sono la creazione delle personas e la trasformazione del testo in audio. Nel primo caso avevo trovato un [generatore gratuito di User personas](https://userpersona.dev/) che partiva da una descrizione per generarle, ma una volta inserito un prompt era possibile generarne una sola e anche cambiando leggermente le differenze erano praticamente insignificanti; guardando meglio al sito si veniva rediretti ad un altro sito dove c'era il rpodotto completo a pagamento.
+Nel secondo caso invece, i vari generatori di audio da testo o permettevano di tradurre solo brevi paragrafi, o fornivano audio di bassa qualità con la possibilità di pronunciare correttamente solo una lingua per volta. Il [sito che ho utilizzato](https://ttsmaker.com/) alla fine è stato quello che più ritenevo bilanciato, però ciò ha reso molto tediosa la trasformazione dato che le pause per la punteggiatura andavano inserite a mano e il testo trasformabile massimo 1000 caratteri alla volta (compresi quelli per inserire le pause).
+Infine, una aspetto che ha reso la realizzazione del progetto più difficoltosa, sono la scarsa quantità di tutorial ed informazioni riguardanti l'editor di Sigil; spesso le fonti disponibili erano di circa 10 anni fa, quindi non aggionate, oppure non molto esplicative. 
 
 ## Conclusioni
 [//]: # (Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.)
