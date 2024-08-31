@@ -148,14 +148,31 @@ flowchart LR
 
 ### Tecnologie adottate
 [//]: # (Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.)
-|     | Scenario 1           | Scenario 2          |
-| -------- | ------------------------------- | ----------------------------- |
-| Markdown | `'Isn't this fun?'`       | 'Isn't this fun?'       |
-| XSLT   | `"Isn't this fun?"`       | "Isn't this fun?"       |
-| ePud   | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
+#### All'interno del progetto
+
+| Tecnologia                 	| Funzionalità all'interno del progetto                                                                                                                                                                                                         	|
+|----------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Sigil                      	| Creazione e gestione dei file necessari per un eBook epub3. <br>Rende disponibili delle automazioni per la gestione di Metadati, link di ipertesto, convalidazione fogli di stile, riformattazione HTML e controllo di epub ben formato.  	|
+| XHTML                      	| Necessario per la struttura base.                                                                                                                                                                                                             	|
+| JavaScript                 	| Utilizzato per gli elementi interattivi all'interno del progetto                                                                                                                                                                              	|
+| CSS                        	| Utilizzato per la formattazione e le parti garfiche                                                                                                                                                                                           	|
+| Venngage                   	| Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.                                                                                                                     	|
+| Canva                      	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                                                                                                                                   	|
+| ttsmaker                   	| Utilizzato per la trasformazione da testo ad audio.                                                                                                                                                                                           	|
+| ACE <br>(plugin per Sigil) 	| Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG eEPUB.                                                                                                                  	|
+
+#### Per la documentazione
+
+| Tecnologia                	| Funzionalità all'interno del progetto                                       	|
+|---------------------------	|-----------------------------------------------------------------------------	|
+| GitHub                    	| Gestione del flusso di produzione                                           	|
+| Canva                     	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	|
+| Mermaid                   	| Creazione di diagrammi di flusso, facilitata anche dall'editor onlie        	|
+| Markdown Table Generator  	| Creazione di tabelle facilitata                                             	|
+| MyBib                     	| Generazione di bibliografia e sitografia facilitata                         	|
 
 ### Esecuzione del flusso
-[//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto. )
+[//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.)
 
 ## Valutazione dei risultati raggiunti
 
