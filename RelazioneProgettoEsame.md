@@ -178,7 +178,7 @@ flowchart LR
 
 ### Esecuzione del flusso
 [//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.)
-[https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024](Nel repository linkato) si può trovare tutto ciò che è relativo al progetto, alla sua realizzazione e alla creazione della relazione.
+[Nel repository linkato](https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024) si può trovare tutto ciò che è relativo al progetto, alla sua realizzazione e alla creazione della relazione.
 
 ## Valutazione dei risultati raggiunti
 
@@ -198,6 +198,12 @@ Grazie ai contenuti interattivi è stato possibile dare un ulteriore aiuto all'u
 
 ### Confronto con lo stato dell'arte
 [//]: # (Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.)
+#### Schema flusso di gestione ASIS 
+![Schema flusso ASIS](Valutazione_dei_risultati/Schema_As_Is.svg)
+#### Schema flusso di gestione TOBE 
+![Schema flusso TOBE](Valutazione_dei_risultati/Schema_To_Be.svg)
+<br>
+I due flussi non sembrano molto differenti al primo sguardo, ma prestando attenzione, nella versione ToBe diversi passaggi sono stati automatizzati e solo in caso di errori è necessario un intervento manuale, risparmiando così diverso tempo. Inoltre nella versione ASIS l'audio è separato dall'ebook come è comune fare solitamente.
 
 ### Limiti emersi
 [//]: # (È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti)
