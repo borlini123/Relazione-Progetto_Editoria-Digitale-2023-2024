@@ -154,52 +154,64 @@ flowchart LR
 [//]: # (Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.)
 #### All'interno del progetto
 
-| Tecnologia         	| Funzionalità all'interno del progetto                                                                                                     	|
-|----------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Sigil           	| Creazione e gestione dei file necessari per un eBook epub3. <br>Rende disponibili delle automazioni per la gestione di Metadati, link di ipertesto, convalidazione fogli di stile, riformattazione HTML e controllo di epub ben formato. 	|
-| XHTML           	| Necessario per la struttura base.                                                                                                       	|
-| JavaScript         	| Utilizzato per gli elementi interattivi all'interno del progetto                                                                                       	|
-| CSS            	| Utilizzato per la formattazione e le parti garfiche                                                                                              	|
-| Venngage          	| Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.                                                           	|
-| Canva           	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                                                  	|
-| ttsmaker          	| Utilizzato per la trasformazione da testo ad audio.                                                                                              	|
-| ACE <br>(plugin per Sigil) 	| Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG ed eEPUB.                                                         	|
+| Tecnologia         	     | Funzionalità all'interno del progetto                                                                                           |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Sigil           	         | Creazione e gestione dei file necessari per un eBook epub3. <br>Rende disponibili delle automazioni per la gestione di Metadati, link di ipertesto, convalidazione fogli di stile, riformattazione HTML e controllo di epub ben formato. 	|
+| XHTML           	         | Necessario per la struttura base.                                                                                               |
+| JavaScript                 | Utilizzato per gli elementi interattivi all'interno del progetto                                                                |
+| CSS            	         | Utilizzato per la formattazione e le parti garfiche                                                                             |
+| Venngage                   | Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.       |
+| Canva           	         | Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                     |
+| ttsmaker                   | Utilizzato per la trasformazione da testo ad audio.                                                                             |
+| ACE <br>(plugin per Sigil) | Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG ed eEPUB. |
 
 #### Per la documentazione
 
-| Tecnologia        	| Funzionalità all'interno della documentazione                    	|
-|---------------------------	|-----------------------------------------------------------------------------	|
-| GitHub          	| Gestione del flusso di produzione                      	|
-| Canva           	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	|
-| Mermaid          	| Creazione di diagrammi di flusso, facilitata anche dall'editor onlie    	|
-| Markdown Table Generator 	| Creazione di tabelle facilitata                       	|
-| MyBib           	| Generazione di bibliografia e sitografia facilitata             	|
+| Tecnologia        	    | Funzionalità all'interno della documentazione                    	                |
+|---------------------------|-----------------------------------------------------------------------------------|
+| GitHub          	        | Gestione del flusso di produzione                      	                        |
+| Canva                   	| Utilizzato per la creazione della copertina sfruttando i modelli esistenti. 	    |
+| Mermaid          	        | Creazione di diagrammi di flusso, facilitata anche dall'editor online    	        |
+| Markdown Table Generator 	| Creazione di tabelle facilitata                       	                        |
+| MyBib           	        | Generazione di bibliografia e sitografia facilitata             	                |
+| Visual Paradigm Online    | Utilizzato per le versioni ASIS e TOBE del flusso                                 |
 
 ### Esecuzione del flusso
 [//]: # (Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.)
-[https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024](Nel repository linkato) si può trovare tutto ciò che è relativo al progetto, alla sua realizzazione e alla creazione della relazione.
+[Nel repository linkato](https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024) si può trovare tutto ciò che è relativo al progetto, alla sua realizzazione e alla creazione della relazione.
 
 ## Valutazione dei risultati raggiunti
 
 ### Valutazione del flusso di produzione
 [//]: # ( Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di)
 [//]: # ( -Riduzione dei tempi di gestione documentale)
-
 [//]: # ( -Riduzione degli errori)
-
 [//]: # ( -Miglioramento della qualità dei documenti)
-
 [//]: # ( -Miglioramento del livello di accettazione della tecnologia)
-
 [//]: # ( -Raggiungimento di nuovi canali di distribuzione)
-
 [//]: # ( -soddisfacimento di nuovi scenari d'uso.)
+Non avendo utilizzato un programma dotato di strumenti appositi per la creazione e gestione dei documenti, sicuramente si è persa uniformità ma, utilizzando vari strumenti sparsi, è stato possibile risparmiare un po' di tempo ed errori sintattici.
+Anche grazie all'editor di Sigil, e possibilità fornita di aggiustare il codice automaticamente, è stato possibile rendere più immediata la correzione di errori di codifica anche se purtroppo, data la mancanza del dizionario italiano nel programma, l'individuazione e correzione di errori di ortografia ha necessitato di più attenzioni. Infine, il plugin ACE ha permesso un controllo più facile, veloce ed accurato per il rispetto degli standard di accessibilità. <br>
+L'utilizzo di epub3 permette di raggiungere sia computer, che smartphone ma anche diversi brand di ebook; in questo modo una più ampia quantità di utenti può utilizzare il prodotto facilmente. Inoltre essendo un unico file è possibile renderlo scaricabile su quasi ogni piattaforma. <br>
+Grazie ai contenuti interattivi è stato possibile dare un ulteriore aiuto all'utente, fornendo degli spunti nel caso ne abbia necessità.
+
 
 ### Confronto con lo stato dell'arte
 [//]: # (Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.)
+#### Schema flusso di gestione ASIS 
+![Schema flusso ASIS](Valutazione_dei_risultati/Schema_As_Is.svg)
+#### Schema flusso di gestione TOBE 
+![Schema flusso TOBE](Valutazione_dei_risultati/Schema_To_Be.svg)
+<br>
+I due flussi non sembrano molto differenti al primo sguardo, ma prestando attenzione, nella versione ToBe diversi passaggi sono stati automatizzati e solo in caso di errori è necessario un intervento manuale, risparmiando così diverso tempo. Inoltre nella versione ASIS l'audio è separato dall'ebook come è comune fare solitamente.
 
 ### Limiti emersi
 [//]: # (È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti)
+Il limite principale emerso è stato cercare di utilizzare tecnologie disponibili gratuitamente.
+Infatti molte risorse che avrebbero potuto permettere di generare tramite AI parte della documentazione o contenuti multimediali erano dietro paywall e le alternative erano di qualità molto bassa o inesistenti, facendo diventare il lavoro manuale l'unica possibile scelta.
+Due esempi che incapsulano bene questo problema sono la creazione delle personas e la trasformazione del testo in audio. Nel primo caso avevo trovato un [generatore gratuito di User personas](https://userpersona.dev/) che partiva da una descrizione per generarle, ma una volta inserito un prompt era possibile generarne una sola e anche cambiando leggermente le differenze erano praticamente insignificanti; guardando meglio al sito si veniva rediretti ad un altro sito dove c'era il rpodotto completo a pagamento.
+Nel secondo caso invece, i vari generatori di audio da testo o permettevano di tradurre solo brevi paragrafi, o fornivano audio di bassa qualità con la possibilità di pronunciare correttamente solo una lingua per volta. Il [sito che ho utilizzato](https://ttsmaker.com/) alla fine è stato quello che più ritenevo bilanciato, però ciò ha reso molto tediosa la trasformazione dato che le pause per la punteggiatura andavano inserite a mano e il testo trasformabile massimo 1000 caratteri alla volta (compresi quelli per inserire le pause).
+Infine, una aspetto che ha reso la realizzazione del progetto più difficoltosa, sono la scarsa quantità di tutorial ed informazioni riguardanti l'editor di Sigil; spesso le fonti disponibili erano di circa 10 anni fa, quindi non aggionate, oppure non molto esplicative. 
 
 ## Conclusioni
 [//]: # (Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.)
