@@ -218,6 +218,8 @@ Infine, una aspetto che ha reso la realizzazione del progetto più difficoltosa,
 
 ## Conclusioni
 [//]: # (Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.)
+Gli obbiettivi dei casi d'uso sono stati ottenuti anche se in modo abbastanza basilare e poco rifinito, soprattutto per ciò che riguarda la trasformazione del testo in audio. In compenso, l'integrazione dei contenuti interattivi è stata ottima e, sebbene la scarsa quantità di tutorial a riguardo, secondo me potrebbero essere un ottimo strumento sia per l'apprendimento che per aiutare nell'immersione di racconti di narrativa. <br/>
+Sicuramente sono disponibili strumenti migliori e più professionali, ma ad un costo che una persona indipendente magari non è disposta a spendere; nonostante ciò un risultato soddisfacente, sebbene necessitando più tempo, è possibile ottenerlo.
 
 ## Bibliografia e sitografia
 [//]: # (Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023])
