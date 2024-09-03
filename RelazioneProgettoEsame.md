@@ -20,6 +20,9 @@ Tecniche di grounding nel quotidiano
 
 ## Introduzione
 [//]: # ( Breve descrizione del progetto toccando i punti più importanti affrontati nel documento. *Obiettivi*, *tecnologie*, aspetti salienti del *flusso di gestione documentale*, *risultati* raggiunti. )
+Il progetto tratta della realizzazione di un libro di esercizi riguardante le tecniche di grounding, il formato sarà un ebook ma per facilitare vari tipi di apprendimento avrà integrati al suo interno sia file audio che dei contenuti interattivi.
+Questo sarà possibile tramite il formato epub3 e l'aiuto di Sigil per la gestione dei vari file. <br/>
+Nel flusso documentale si presterà particolare attenzione alla raccolta e creazione di contenuti veritieri e senza Copyright, creare una struttura per rendere il libro il più facilmente fruibile e fare in modo che la grafica rispetti gli standard di accessibilità.
 
 ## Ideazione
 Al giorno d'oggi per molte persone risulta difficile rimanere con la mente nel presente sia per i costanti stimoli a cui siamo sottoposti in ogni momento, che per lo stress che si può incontrare nella vita di tutti i giorni. <br/>
@@ -27,7 +30,7 @@ L'obbiettivo del mio progetto è creare uno strumento facilmente consultabile in
 
 ### Tema
 [//]: # (Identificazione dei temi che il prodotto editoriale dovrà presentare. Evidenziare gli argomenti correlati e la tendenza dell'attenzione su questi temi.) 
-Il prodotto dovrà essere un breve manuale sulle tecniche di grounding, dovrà spiegare brevemente cos'è e la sua utilità per poi passare ad elencare i vari esercizi con annessa una spiegazione e/o il necessario per svolgere l'esercizio (_Esempio_: link a video dimostrativi)
+Il prodotto dovrà essere un breve manuale riguardante le tecniche di grounding e dovrà comprendere vari esercizi, realizzabili quasi in ogni momento, per ogni tipologia, dovrà spiegare brevemente cos'è e la sua utilità per poi passare ad elencare i vari esercizi con annessa una spiegazione e, nel caso, il necessario per svolgere l'esercizio (_Esempio_: un'audioguida)
 
 ### Destinatari
 [//]: # (Descrivere i destinatari del prodotto editoriale descrivendo le personas alle quali si rivolge il prodotto. Descrivete alcuni scenari d'uso nei quali inserire le personas scelte come destinatari.)
