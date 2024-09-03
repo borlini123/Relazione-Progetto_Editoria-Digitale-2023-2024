@@ -218,4 +218,22 @@ Infine, una aspetto che ha reso la realizzazione del progetto più difficoltosa,
 
 ## Bibliografia e sitografia
 [//]: # (Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023])
-
+### Fonti per la relazione
+- [@canva]
+- [@mermaid]
+- [@mtg]
+- [@my_bib]
+- [@vpo]
+### Fonti contenuto del progetto
+- [@chevalier_2015]
+- [@fisher_1999]
+- [@healthline]
+- [@choosing_therapy]
+- [@daisyconsortium_epub]
+- [@daisyconsortium_ace]
+- [@sigil]
+- [@venngage]
+- [@ttsmaker]
+- [@pexels_flatlays]
+- [@pexels_floral]
+- [@pexels_food]
