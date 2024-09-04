@@ -38,10 +38,10 @@ Il progetto è pensato principalmente per persone con problemi a rimanere radica
 
 #### Personas
 
-![Persona, Martha Jones](Ideazione/Persona_Martha_Jones.png)
+![Personas create](Ideazione/Persona_Martha_Jones.png)
 <br/>
 
-![Persona, Matteo Bianchi](Ideazione/Persona_Matteo_Bianchi.png)
+![Personas create](Ideazione/Persona_Matteo_Bianchi.png)
 
 #### Scenari d'uso
 
@@ -109,7 +109,7 @@ Infine i contenuti audio verranno generati automaticamente.
 <br/>
 
 ```mermaid
-flowchart TB
+flowchart LR
   n{{"Decisione<br> argomenti"}} --> A1("Raccolta <br>fonti")
   A1 --> A2(["Controllo<br> fonti"])
   C1("Bozza <br> struttura eBook") --> D1("Bozza <br> del testo")
@@ -123,7 +123,7 @@ flowchart TB
 <br/>
 
 ```mermaid
-flowchart TB
+flowchart LR
   n1{{"Bozza della struttura"}} --> A("Divisione capitoli")
   n2{{"Testo completo"}} --> A & C(["Creazione<br>elenco <br>degli esercizi"])
   n2 -- Controlli --> n3(("Controllo <br> ortografico")) & n4(("Controllo<br>punteggiatura"))
@@ -138,7 +138,7 @@ flowchart TB
 <br/>
 
 ```mermaid
-flowchart TB
+flowchart LR
   A(["Creazione <br> fogli di stile <br> basilari"]) --> B("Inserimento <br> font scelto")
   B --> C("Inserimento<br>immagini")
   C --> D("Sistemare <br> impaginazione <br>paragrafi") & E(["Creazione testi<br> alternativi"])
@@ -185,7 +185,7 @@ flowchart LR
 
 ### Esecuzione del flusso
 
-[Nel repository linkato](https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024) si può trovare tutto ciò che è relativo al progetto, alla sua realizzazione e alla creazione della relazione.
+*[Nel repository linkato](https://github.com/borlini123/Editoria-Digitale-Relazione-2023-2024)* si può trovare tutto ciò che è relativo al progetto, alla sua realizzazione e alla creazione della relazione.
 
 ## Valutazione dei risultati raggiunti
 
@@ -203,14 +203,14 @@ Grazie ai contenuti interattivi è stato possibile dare un ulteriore aiuto all'u
 ![Schema flusso TOBE](Valutazione_dei_risultati/Schema_To_Be.png)
 
 <br>
-I due flussi non sembrano molto differenti al primo sguardo, ma prestando attenzione, nella versione ToBe diversi passaggi sono stati automatizzati e solo in caso di errori è necessario un intervento manuale, risparmiando così diverso tempo. Inoltre nella versione ASIS l'audio è separato dall'ebook come è comune fare solitamente.
+I due flussi non sembrano molto differenti al primo sguardo, ma prestando attenzione, nella versione TOBE diversi passaggi sono stati automatizzati e solo in caso di errori è necessario un intervento manuale, risparmiando così diverso tempo. Inoltre nella versione ASIS l'audio è separato dall'ebook come è comune fare solitamente.
 
 ### Limiti emersi
 
 Il limite principale emerso è stato cercare di utilizzare tecnologie disponibili gratuitamente.
 Infatti molte risorse che avrebbero potuto permettere di generare tramite AI parte della documentazione o contenuti multimediali erano dietro paywall e le alternative erano di qualità molto bassa o inesistenti, facendo diventare il lavoro manuale l'unica possibile scelta.
-Due esempi che incapsulano bene questo problema sono la creazione delle personas e la trasformazione del testo in audio. Nel primo caso avevo trovato un [generatore gratuito di User personas](https://userpersona.dev/) che partiva da una descrizione per generarle, ma una volta inserito un prompt era possibile generarne una sola e anche cambiando leggermente le differenze erano praticamente insignificanti; guardando meglio al sito si veniva rediretti ad un altro sito dove c'era il rpodotto completo a pagamento.
-Nel secondo caso invece, i vari generatori di audio da testo o permettevano di tradurre solo brevi paragrafi, o fornivano audio di bassa qualità con la possibilità di pronunciare correttamente solo una lingua per volta. Il [sito che ho utilizzato](https://ttsmaker.com/) alla fine è stato quello che più ritenevo bilanciato, però ciò ha reso molto tediosa la trasformazione dato che le pause per la punteggiatura andavano inserite a mano e il testo trasformabile massimo 1000 caratteri alla volta (compresi quelli per inserire le pause).
+Due esempi che incapsulano bene questo problema sono la creazione delle personas e la trasformazione del testo in audio. Nel primo caso avevo trovato un *[generatore gratuito di User personas](https://userpersona.dev/)* che partiva da una descrizione per generarle, ma una volta inserito un prompt era possibile generarne una sola e anche cambiando leggermente le differenze erano praticamente insignificanti; guardando meglio al sito si veniva rediretti ad un altro sito dove c'era il rpodotto completo a pagamento.
+Nel secondo caso invece, i vari generatori di audio da testo o permettevano di tradurre solo brevi paragrafi, o fornivano audio di bassa qualità con la possibilità di pronunciare correttamente solo una lingua per volta. Il *[sito che ho utilizzato](https://ttsmaker.com/)* alla fine è stato quello che più ritenevo bilanciato, però ciò ha reso molto tediosa la trasformazione dato che le pause per la punteggiatura andavano inserite a mano e il testo trasformabile massimo 1000 caratteri alla volta (compresi quelli per inserire le pause).
 Infine, una aspetto che ha reso la realizzazione del progetto più difficoltosa, sono la scarsa quantità di tutorial ed informazioni riguardanti l'editor di Sigil; spesso le fonti disponibili erano di circa 10 anni fa, quindi non aggionate, oppure non molto esplicative. 
 
 ## Conclusioni
