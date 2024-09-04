@@ -9,7 +9,7 @@ Supponendo che Node.js e NPM siano installati, eseguire l'istallazione di mermai
 npm i -g mermaid-filter
 ``
 
-#### Per codice utilizzato per generare un PDF dal Markdown:
+#### Per codice utilizzato per generare il PDF dal Markdown:
 
 ``
 pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.pdf --citeproc -F mermaid-filter.cmd -V block-headings -V geometry:margin=1in
@@ -26,13 +26,11 @@ pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.pdf --citeproc -F 
 - `-V block-headings`: è necessario aggiungere per far rispettare gli headings4, dato che non c'è un equivalente in latex
 - `-V geometry:margin=1in`: l'ho utilizzato per rimpicciolire i margini, rendendo le immagini più leggibili
 
-#### Per generare un Word dal Markdown della relazione utilizzare il seguente comando:
+#### Per codice utilizzato per generare il documento Word dal Markdown:
 
 ``
-pandoc --reference-doc template.docx -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.docx --citeproc -F mermaid-filter.cmd -V geometry:margin=1in
+pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.docx --citeproc -F mermaid-filter.cmd -V geometry:margin=1in
 ``
-
-- `--reference-doc template.docx`: Questo parametro specifica il documento di riferimento (template) da utilizzare come modello per la conversione. Nel tuo caso, "template.docx" è il documento di riferimento da cui Pandoc prenderà il formato, lo stile e altre impostazioni per il file di output.
 
 - `-s`: Questa opzione indica a Pandoc di creare un documento di output "standalone". In altre parole, genera un documento autonomo invece di un frammento. Questo è utile se si desidera creare un documento completo anziché solo una parte di un documento.
 
