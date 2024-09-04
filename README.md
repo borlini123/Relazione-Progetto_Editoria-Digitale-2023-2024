@@ -14,6 +14,11 @@ npm i -g mermaid-filter
 ``
 pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.pdf --citeproc -F mermaid-filter
 ``
+<br/>
+Per Windows: 
+``
+pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.pdf --citeproc -F mermaid-filter.cmd
+``
 
 - `-s`: Questa opzione indica a Pandoc di creare un documento di output "standalone". In altre parole, genera un documento autonomo invece di un frammento. Questo è utile se si desidera creare un documento completo anziché solo una parte di un documento.
 
@@ -30,6 +35,11 @@ pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.pdf --citeproc -F 
 
 ``
 pandoc --reference-doc template.docx -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.docx --citeproc -F mermaid-filter
+``
+<br/>
+Per Windows
+``
+pandoc --reference-doc template.docx -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.docx --citeproc -F mermaid-filter.cmd
 ``
 
 - `--reference-doc template.docx`: Questo parametro specifica il documento di riferimento (template) da utilizzare come modello per la conversione. Nel tuo caso, "template.docx" è il documento di riferimento da cui Pandoc prenderà il formato, lo stile e altre impostazioni per il file di output.
