@@ -89,7 +89,7 @@ Infine i contenuti audio verranno generati automaticamente.
 ### Gestione documentale
 #### Raccolta e creazione dei contenuti
 ```mermaid
-flowchart LR
+flowchart TB
   n{{"Decisione<br>&nbsp;argomenti"}} --> A1("Raccolta <br>fonti")
   A1 --> A2(["Controllo<br> fonti"])
   C1("Bozza <br> struttura eBook") --> D1("Bozza <br> del testo")
@@ -99,7 +99,7 @@ flowchart LR
 ```
 #### Strutturazione dei contenuti 
 ```mermaid
-flowchart LR
+flowchart TB
   n1{{"Bozza della struttura"}} --> A("Divisione capitoli")
   n2{{"Testo completo"}} --> A & C(["Creazione<br>elenco <br>degli esercizi"])
   n2 -- Controlli --> n3(("Controllo <br> ortografico")) & n4(("Controllo<br>punteggiatura"))
@@ -111,7 +111,7 @@ flowchart LR
 
 #### Applicazione dello stile grafico 
 ```mermaid
-flowchart LR
+flowchart TB
   A(["Creazione <br> fogli di stile <br> basilari"]) --> B("Inserimento <br> font scelto")
   B --> C("Inserimento<br>immagini")
   C --> D("Sistemare <br> impaginazione <br>paragrafi") & E(["Creazione testi<br>&nbsp;alternativi"])
