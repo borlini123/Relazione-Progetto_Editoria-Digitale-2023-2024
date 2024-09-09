@@ -41,4 +41,4 @@ pandoc -s RelazioneProgettoEsame.md -o RelazioneProgettoEsame.docx --citeproc -F
 - `--citeproc`: Questa opzione abilita il supporto per la citazione e la bibliografia. Utilizza il sistema di citazione CSL (Citation Style Language) per formattare le citazioni nel documento.
 
 - `-F mermaid-filter.cmd`: Questa opzione indica l'uso di un filtro chiamato "mermaid-filter". I filtri in Pandoc consentono di estendere le funzionalità di Pandoc tramite script o programmi esterni. In questo caso, il filtro "mermaid-filter" potrebbe essere utilizzato per il rendering di grafici Mermaid nel documento.".cmd" è necessario se si utilizza Windows.
-- - `-V geometry:margin=1in`: l'ho utilizzato per rimpicciolire i margini
+- `-V geometry:margin=1in`: l'ho utilizzato per rimpicciolire i margini
