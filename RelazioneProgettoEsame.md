@@ -86,11 +86,10 @@ Questo perché tramite social network sarà possibile entrare in contatto anche 
 Con lo standard scelto, sarà necessario usare il fromato .epub in modo da che sia accessibile da più tipi di dispositivi.
 Il progetto si cercherà di essere il più familiare e comprensibile all'utente imitando un normale libro di esercizi, questo per cercare di evitare frustrazioni durante l'utilizzo e uno stile più informale in modo da non spaventare il lettore con termini troppo complessi. <br/>
 La grafica del progetto avrà:
-
 - una palette con dei toni naturali e forme rotonde in modo da avere un effetto rilassante,
 - un font accessibile per chi ha la dislessia,
-- un'interlinea tale da non avere il testo troppo ravvicinato,
-- chiara divisione tra i vari esercizi in modo da non causare confusione.
+- chiara divisione tra i vari esercizi in modo da non causare confusione
+- sarà abbastanza minimale in modo da non casusare distrazioni.
 
 ## Processo di Produzione
 
@@ -99,7 +98,7 @@ La grafica del progetto avrà:
 Le fonti utilizzate per i contenuti informatici di questo prodotto, verranno da vari articoli e pubblicazioni sostenute da medici e/o pubblicate da fonti attendibili in modo da evitare informazioni errate.
 Anche se possono essere coperte da copyright, essendo questo un progetto scolastico e per usi educativi no-profit, l'utilizzo di queste fonti ricade nel Fair Use; in caso non lo fosse sarebbe necessario citare e pagare i diritti sulle fonti utilizzate. <br/>
 In caso sia necessario tradurre dei contenuti dall'inglese all'italiano sfutterò il sito DeepL, per poi revisionare e correggere manualmente il risultato.
-Per i contenuti grafici invece verranno sfruttati fonti libere da vari siti web.
+Per i contenuti grafici invece sono stati sfruttati quasi unicamente fonti libere da vari siti web; ad eccezione dell'unico video presente nell'eBook la cui animazione è stata creata da Sara Borlini, dato che non ho trovato le risorse necessarie in lingua italiana. 
 Infine i contenuti audio verranno generati automaticamente.
 
 ### Gestione documentale
@@ -167,7 +166,7 @@ flowchart LR
 | XHTML                      | Necessario per la struttura base.                                                                                                                                                                                                        |
 | JavaScript                 | Utilizzato per gli elementi interattivi all'interno del progetto                                                                                                                                                                         |
 | CSS                        | Utilizzato per la formattazione e le parti garfiche                                                                                                                                                                                      |
-| Venngage                   | Utilizzato per la creazione di palette di colori conformi alle WCAG 2.1 AA e basate su un rapporto di contrasto di 4,5:1.                                                                                                                |
+| WhoCanUse                  | Utilizzato per controllare se due colori sono abbastanza in contrasto per varie tipologie di disabilità visive, si basa sulle linee guida del WCAG                                                                                                          |
 | Canva                      | Utilizzato per la creazione della copertina sfruttando i modelli esistenti.                                                                                                                                                              |
 | ttsmaker                   | Utilizzato per la trasformazione da testo ad audio.                                                                                                                                                                                      |
 | ACE <br>(plugin per Sigil) | Controlla l'accessibilità dell'ebook e riporta eventuali violazioni rispetto alle specifiche di accessibilità di WCAG ed eEPUB.                                                                                                          |
@@ -220,4 +219,4 @@ Sicuramente sono disponibili strumenti migliori e più professionali, ma ad un c
 
 ## Bibliografia e sitografia
 
-[@canva,@mermaid,@mtg,@my_bib,@vpo,@chevalier_2015,@fisher_1999,@healthline,@choosing_therapy,@daisyconsortium_epub,@daisyconsortium_ace,@sigil,@venngage,@ttsmaker,@pexels_flatlays,@pexels_floral,@pexels_food]
+[@canva,@mermaid,@mtg,@my_bib,@vpo,@chevalier_2015,@fisher_1999,@healthline,@choosing_therapy,@daisyconsortium_epub,@daisyconsortium_ace,@sigil,@whocanuse,@ttsmaker,@pexels_flatlays,@pexels_floral,@pexels_food]
