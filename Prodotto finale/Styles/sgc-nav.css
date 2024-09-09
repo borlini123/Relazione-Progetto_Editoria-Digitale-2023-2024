@@ -1,0 +1,60 @@
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+ol {
+    list-style-type: none;
+}
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+  font-family : OpenDyslexic;
+  font-weight : normal;
+  font-style: normal;
+  src : url(../Fonts/OpenDyslexic-Regular.otf);
+}
+
+@font-face {
+  font-family : OpenDyslexic;
+  font-weight : normal;
+  font-style: italic;
+  src : url(../Fonts/OpenDyslexic-Italic.otf);
+}
+
+@font-face {
+  font-family : OpenDyslexic;
+  font-weight : bold;
+  font-style: normal;
+  src : url(../Fonts/OpenDyslexic-Bold.otf);
+}
+
+@font-face {
+  font-family : OpenDyslexic;
+  font-weight : bold;
+  font-style: italic;
+  src : url(../Fonts/OpenDyslexic-Bold-Italic.otf);
+}
+html {
+   font-size: 1rem;
+}
+
+body {
+	font-family: "OpenDyslexic";
+	color: #000000;
+	background-color: #fbf5e0 ;
+}
+a, a:link, a:visited, a:hover,a:active{
+   text-decoration: none;
+   padding-bottom: 2px;
+   border-bottom: 1px dotted #374508;
+   color:#374508;
+}
+
+h1 {
+   font-size: 2.2rem;
+}
