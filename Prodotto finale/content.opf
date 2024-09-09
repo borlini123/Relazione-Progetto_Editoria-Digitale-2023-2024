@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xml:lang="it" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xml:lang="it" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:language dir="ltr">it-IT</dc:language>
+    <dc:title id="tle">Torna con i piedi per terra: Tecniche di grounding nel quotidiano</dc:title>
+    <meta refines="#tle" property="title-type">subtitle</meta>
+    <dc:format>application/epub+zip</dc:format>
+    <dc:description>Manuale contenente vari esercizi di grounding effettuabili quasi ovunque</dc:description>
+    <dc:title dir="rtl">Torna con i piedi per terra</dc:title>
+    <dc:language>it-IT</dc:language>
+    <meta property="dcterms:modified">2024-09-09T17:54:44Z</meta>
+    <meta property="schema:accessMode">auditory</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">auditory</meta>
+    <meta property="schema:accessibilityFeature">captions</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">audioDescription</meta>
+    <meta property="schema:accessibilityFeature">displayTransformability</meta>
+    <meta property="schema:accessibilityFeature">highContrastAudio</meta>
+    <meta property="schema:accessibilityFeature">highContrastDisplay</meta>
+    <meta property="schema:accessibilityFeature">index</meta>
+    <meta property="schema:accessibilityFeature">largePrint</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityHazard">flashing</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+    <meta property="schema:accessibilityHazard">sound</meta>
+    <meta property="schema:accessibilitySummary">In addition to meeting accessibility standards, this publication includes audio for every piece of text. Neither the images nor the video in this publication are necessary for its fruition. Also, all the audio is not necessary either</meta>
+    <dc:identifier id="BookId">urn:uuid:1b2aed12-cce1-49dc-bd5e-0e6716fc472d</dc:identifier>
+    <meta name="Sigil version" content="2.3.1"/>
+    <meta name="cover" content="Copertina_png"/>
+  </metadata>
+  <manifest>
+    <item id="Capitolo_Tecnichecalmanti_xhtml" href="Text/Capitolo_Tecniche%20calmanti.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="Capitolo_Tecnichefisiche_xhtml" href="Text/Capitolo_Tecniche%20fisiche.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Capitolo_Tecnichementali_xhtml" href="Text/Capitolo_Tecniche%20mentali.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="Copertina_png" href="Images/Copertina.png" media-type="image/png" properties="cover-image"/>
+    <item id="Fonti_xhtml" href="Text/Fonti.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Introduzione_xhtml" href="Text/Introduzione.xhtml" media-type="application/xhtml+xml"/>
+    <item id="OpenDyslexic-Bold-Italic_otf" href="Fonts/OpenDyslexic-Bold-Italic.otf" media-type="font/otf"/>
+    <item id="OpenDyslexic-Bold_otf" href="Fonts/OpenDyslexic-Bold.otf" media-type="font/otf"/>
+    <item id="OpenDyslexic-Italic_otf" href="Fonts/OpenDyslexic-Italic.otf" media-type="font/otf"/>
+    <item id="OpenDyslexic-Regular_otf" href="Fonts/OpenDyslexic-Regular.otf" media-type="font/otf"/>
+    <item id="Randomizzatori_js" href="Misc/Randomizzatori.js" media-type="application/javascript"/>
+    <item id="Style0001_css" href="Styles/Style0001.css" media-type="text/css"/>
+    <item id="sgc-index_css" href="Styles/sgc-index.css" media-type="text/css"/>
+    <item id="cover_xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="jquery-1.7.1.min_js" href="Misc/jquery-1.7.1.min.js" media-type="application/javascript"/>
+    <item id="nav_xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="pexels-alexy-almond-3758133_jpg" href="Images/pexels-alexy-almond-3758133.jpg" media-type="image/jpeg"/>
+    <item id="pexels-alleksana-4186909_jpg" href="Images/pexels-alleksana-4186909.jpg" media-type="image/jpeg"/>
+    <item id="pexels-andrew-7041947_jpg" href="Images/pexels-andrew-7041947.jpg" media-type="image/jpeg"/>
+    <item id="pexels-cadomaestro-3677150_jpg" href="Images/pexels-cadomaestro-3677150.jpg" media-type="image/jpeg"/>
+    <item id="pexels-daniela-constantini-5591734_jpg" href="Images/pexels-daniela-constantini-5591734.jpg" media-type="image/jpeg"/>
+    <item id="pexels-micheile-6981998_jpg" href="Images/pexels-micheile-6981998.jpg" media-type="image/jpeg"/>
+    <item id="pexels-micheile-9154519_jpg" href="Images/pexels-micheile-9154519.jpg" media-type="image/jpeg"/>
+    <item id="pexels-micheile-9206602_jpg" href="Images/pexels-micheile-9206602.jpg" media-type="image/jpeg"/>
+    <item id="pexels-nietjuh-1693626_jpg" href="Images/pexels-nietjuh-1693626.jpg" media-type="image/jpeg"/>
+    <item id="pexels-olenkabohovyk-4121872_jpg" href="Images/pexels-olenkabohovyk-4121872.jpg" media-type="image/jpeg"/>
+    <item id="pexels-rachel-claire-4819319_jpg" href="Images/pexels-rachel-claire-4819319.jpg" media-type="image/jpeg"/>
+    <item id="pexels-rachel-claire-4993283_jpg" href="Images/pexels-rachel-claire-4993283.jpg" media-type="image/jpeg"/>
+    <item id="pexels-rebecca-1637573-5566040_jpg" href="Images/pexels-rebecca-1637573-5566040.jpg" media-type="image/jpeg"/>
+    <item id="pexels-vanessa-loring-5965962_jpg" href="Images/pexels-vanessa-loring-5965962.jpg" media-type="image/jpeg"/>
+    <item id="pexels-viktoria-alipatova-1083711-2130134_jpg" href="Images/pexels-viktoria-alipatova-1083711-2130134.jpg" media-type="image/jpeg"/>
+    <item id="pexels-viviana-ceballos-1480481-3490665_jpg" href="Images/pexels-viviana-ceballos-1480481-3490665.jpg" media-type="image/jpeg"/>
+    <item id="sgc-nav_css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="sgc-toc_css" href="Styles/sgc-toc.css" media-type="text/css"/>
+    <item id="toc_ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Introduzione_01_mp3" href="Audio/Introduzione_01.mp3" media-type="audio/mpeg"/>
+    <item id="Introduzione_02_mp3" href="Audio/Introduzione_02.mp3" media-type="audio/mpeg"/>
+    <item id="men_01_Intro_mp3" href="Audio/men_01_Intro.mp3" media-type="audio/mpeg"/>
+    <item id="men_02_Dire_01_Memory_mp3" href="Audio/men_02_Dire_01_Memory.mp3" media-type="audio/mpeg"/>
+    <item id="men_02_Dire_02_Matematica_mp3" href="Audio/men_02_Dire_02_Matematica.mp3" media-type="audio/mpeg"/>
+    <item id="men_02_Dire_03_Nomina_Oggetti_mp3" href="Audio/men_02_Dire_03_Nomina_Oggetti.mp3" media-type="audio/mpeg"/>
+    <item id="men_02_Dire_04_Recita_Qualcosa_mp3" href="Audio/men_02_Dire_04_Recita_Qualcosa.mp3" media-type="audio/mpeg"/>
+    <item id="men_02_Dire_05_Recita_InOrdine_mp3" href="Audio/men_02_Dire_05_Recita_InOrdine.mp3" media-type="audio/mpeg"/>
+    <item id="men_02_Dire_06_Affermazione_mp3" href="Audio/men_02_Dire_06_Affermazione.mp3" media-type="audio/mpeg"/>
+    <item id="cal_01_intro_mp3" href="Audio/cal_01_intro.mp3" media-type="audio/mpeg"/>
+    <item id="cal_02_Autogentilezza_mp3" href="Audio/cal_02_Autogentilezza.mp3" media-type="audio/mpeg"/>
+    <item id="cal_03_Preferiti_mp3" href="Audio/cal_03_Preferiti.mp3" media-type="audio/mpeg"/>
+    <item id="cal_04_Positive_mp3" href="Audio/cal_04_Positive.mp3" media-type="audio/mpeg"/>
+    <item id="cal_05_PostoPreferito_mp3" href="Audio/cal_05_PostoPreferito.mp3" media-type="audio/mpeg"/>
+    <item id="cal_06_Attivita_mp3" href="Audio/cal_06_Attivita.mp3" media-type="audio/mpeg"/>
+    <item id="fis_06_Musica_mp3" href="Audio/fis_06_Musica.mp3" media-type="audio/mpeg"/>
+    <item id="cal_08_ToccaConforto_mp3" href="Audio/cal_08_ToccaConforto.mp3" media-type="audio/mpeg"/>
+    <item id="fis_01_intro_mp3" href="Audio/fis_01_intro.mp3" media-type="audio/mpeg"/>
+    <item id="fis_02_54321_mp3" href="Audio/fis_02_54321.mp3" media-type="audio/mpeg"/>
+    <item id="fis_03_NominaConta_mp3" href="Audio/fis_03_NominaConta.mp3" media-type="audio/mpeg"/>
+    <item id="fis_04_ContaColore_mp3" href="Audio/fis_04_ContaColore.mp3" media-type="audio/mpeg"/>
+    <item id="fis_05_AscoltaDintorni_mp3" href="Audio/fis_05_AscoltaDintorni.mp3" media-type="audio/mpeg"/>
+    <item id="men_03_Descrivere_01_Dintorni_mp3" href="Audio/men_03_Descrivere_01_Dintorni.mp3" media-type="audio/mpeg"/>
+    <item id="men_03_Descrivere_02_Attivita_mp3" href="Audio/men_03_Descrivere_02_Attivita.mp3" media-type="audio/mpeg"/>
+    <item id="men_03_Descrivere_03_Situazione_mp3" href="Audio/men_03_Descrivere_03_Situazione.mp3" media-type="audio/mpeg"/>
+    <item id="men_04_Immaginare_01_Quotidiano_mp3" href="Audio/men_04_Immaginare_01_Quotidiano.mp3" media-type="audio/mpeg"/>
+    <item id="men_04_Immaginare_02_Lasciare_mp3" href="Audio/men_04_Immaginare_02_Lasciare.mp3" media-type="audio/mpeg"/>
+    <item id="fis_07_Respira_mp3" href="Audio/fis_07_Respira.mp3" media-type="audio/mpeg"/>
+    <item id="fis_08_Annusa_mp3" href="Audio/fis_08_Annusa.mp3" media-type="audio/mpeg"/>
+    <item id="fis_09_Assapora_mp3" href="Audio/fis_09_Assapora.mp3" media-type="audio/mpeg"/>
+    <item id="Respirazioneguidata_mp4" href="Video/Respirazione%20guidata.mp4" media-type="video/mp4"/>
+    <item id="fis_10_SentiCorpo_mp3" href="Audio/fis_10_SentiCorpo.mp3" media-type="audio/mpeg"/>
+    <item id="fis_11_StringiPugni_mp3" href="Audio/fis_11_StringiPugni.mp3" media-type="audio/mpeg"/>
+    <item id="fis_12_Sprint_mp3" href="Audio/fis_12_Sprint.mp3" media-type="audio/mpeg"/>
+    <item id="fis_13_Camminata_mp3" href="Audio/fis_13_Camminata.mp3" media-type="audio/mpeg"/>
+    <item id="fis_14_Acqua_mp3" href="Audio/fis_14_Acqua.mp3" media-type="audio/mpeg"/>
+  </manifest>
+  <spine toc="toc_ncx">
+    <itemref idref="cover_xhtml"/>
+    <itemref idref="Introduzione_xhtml"/>
+    <itemref idref="Capitolo_Tecnichementali_xhtml"/>
+    <itemref idref="Capitolo_Tecnichefisiche_xhtml"/>
+    <itemref idref="Capitolo_Tecnichecalmanti_xhtml"/>
+    <itemref idref="Fonti_xhtml"/>
+    <itemref idref="nav_xhtml" linear="no"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Copertina" href="Text/cover.xhtml"/>
+    <reference type="other.introduction" title="Introduzione" href="Text/Introduzione.xhtml"/>
+    <reference type="toc" title="Tavola dei Contenuti (TOC)" href="Text/nav.xhtml"/>
+  </guide>
+</package>

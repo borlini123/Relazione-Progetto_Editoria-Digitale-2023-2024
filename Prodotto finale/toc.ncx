@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:1b2aed12-cce1-49dc-bd5e-0e6716fc472d"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Torna con i piedi per terra</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1">
+      <navLabel>
+        <text>Introduzione</text>
+      </navLabel>
+      <content src="Text/Introduzione.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint2">
+      <navLabel>
+        <text>Tecniche mentali</text>
+      </navLabel>
+      <content src="Text/Capitolo_Tecniche%20mentali.xhtml"/>
+      <navPoint id="navPoint3">
+        <navLabel>
+          <text>Gioca al memory</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20mentali.xhtml#men_Memory"/>
+      </navPoint>
+      <navPoint id="navPoint4">
+        <navLabel>
+          <text>Usa matematica e numeri</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20mentali.xhtml#men_Matematica"/>
+      </navPoint>
+      <navPoint id="navPoint5">
+        <navLabel>
+          <text>Recita qualcosa</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20mentali.xhtml#men_Recita"/>
+      </navPoint>
+      <navPoint id="navPoint6">
+        <navLabel>
+          <text>Usa un’affermazione di ancoraggio</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20mentali.xhtml#men_Affermazione"/>
+      </navPoint>
+      <navPoint id="navPoint7">
+        <navLabel>
+          <text>Descrivi</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20mentali.xhtml#men_Descrivi"/>
+      </navPoint>
+      <navPoint id="navPoint8">
+        <navLabel>
+          <text>Immagina</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20mentali.xhtml#men_Immagina"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint9">
+      <navLabel>
+        <text>Tecniche fisiche</text>
+      </navLabel>
+      <content src="Text/Capitolo_Tecniche%20fisiche.xhtml"/>
+      <navPoint id="navPoint10">
+        <navLabel>
+          <text>Metodo del 5-4-3-2-1</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20fisiche.xhtml#fis_met54321"/>
+      </navPoint>
+      <navPoint id="navPoint11">
+        <navLabel>
+          <text>Vista</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20fisiche.xhtml#fis_Vista"/>
+      </navPoint>
+      <navPoint id="navPoint12">
+        <navLabel>
+          <text>Udito</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20fisiche.xhtml#fis_Udito"/>
+      </navPoint>
+      <navPoint id="navPoint13">
+        <navLabel>
+          <text>Olfatto</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20fisiche.xhtml#fis_Olfatto"/>
+      </navPoint>
+      <navPoint id="navPoint14">
+        <navLabel>
+          <text>Gusto</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20fisiche.xhtml#fis_Gusto"/>
+      </navPoint>
+      <navPoint id="navPoint15">
+        <navLabel>
+          <text>Tatto</text>
+        </navLabel>
+        <content src="Text/Capitolo_Tecniche%20fisiche.xhtml#fis_Tatto"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint16">
+      <navLabel>
+        <text>Tecniche calmanti</text>
+      </navLabel>
+      <content src="Text/Capitolo_Tecniche%20calmanti.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint17">
+      <navLabel>
+        <text>Fonti</text>
+      </navLabel>
+      <content src="Text/Fonti.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
