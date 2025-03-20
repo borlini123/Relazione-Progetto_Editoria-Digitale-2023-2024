@@ -11,7 +11,7 @@ bibliography: bibliografia.bib
 csl: IEEE.csl
 ---
 
-![Logo UNIMI](./logo/minerva.jpg){width=100px height=100px} 
+![Logo UNIMI](./logo/minerva.jpg)
 
 # Torna con i piedi per terra
 
@@ -217,6 +217,6 @@ Infine, una aspetto che ha reso la realizzazione del progetto più difficoltosa,
 Gli obbiettivi dei casi d'uso sono stati ottenuti anche se in modo abbastanza basilare e poco rifinito, soprattutto per ciò che riguarda la trasformazione del testo in audio. In compenso, l'integrazione dei contenuti interattivi è stata ottima e, sebbene la scarsa quantità di tutorial a riguardo, secondo me potrebbero essere un ottimo strumento sia per l'apprendimento che per aiutare nell'immersione di racconti di narrativa. <br/>
 Sicuramente sono disponibili strumenti migliori e più professionali, ma ad un costo che una persona indipendente magari non è disposta a spendere; nonostante ciò un risultato soddisfacente, sebbene necessitando più tempo, è possibile ottenerlo.
 
-## Bibliografia e sitografia
+<!--- ## Bibliografia e sitografia
 
-[@canva,@mermaid,@mtg,@my_bib,@vpo,@chevalier_2015,@fisher_1999,@healthline,@choosing_therapy,@daisyconsortium_epub,@daisyconsortium_ace,@sigil,@whocanuse,@ttsmaker,@pexels_flatlays,@pexels_floral,@pexels_food]
+// [@canva,@mermaid,@mtg,@my_bib,@vpo,@chevalier_2015,@fisher_1999,@healthline,@choosing_therapy,@daisyconsortium_epub,@daisyconsortium_ace,@sigil,@whocanuse,@ttsmaker,@pexels_flatlays,@pexels_floral,@pexels_food] -->
